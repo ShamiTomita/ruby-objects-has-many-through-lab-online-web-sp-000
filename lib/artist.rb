@@ -23,7 +23,8 @@ class Artist
   
   def genres 
     Song.all.collect do |genre|
-      songs.genre
+      genre_collection = songs.genre
+      genre_collection
     end 
   end 
   
