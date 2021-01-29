@@ -12,6 +12,7 @@ class Genre
     @@all 
   end 
   
+  def new_song(name, artist, )
   def songs
     Song.all.select do |song|
       song.genre == self 
